@@ -2,7 +2,7 @@ import express from "express";
 
 import { logs, submission } from "@/router/routes";
 
-function setRouter() {
+function useRouter() {
   const router = express.Router();
 
   router.use(express.json()); // Sets request data type
@@ -13,4 +13,4 @@ function setRouter() {
   return router;
 }
 
-export default setRouter;
+export default useRouter;
