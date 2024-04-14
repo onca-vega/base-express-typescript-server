@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "name A",
+    "email": "emailA@example.com",
+    "phoneNumber": "+525555555551",
+    "subscribed": ["Sports"],
+    "channels": []
+  },
+  {
+    "id": 2,
+    "name": "name B",
+    "email": "emailB@example.com",
+    "phoneNumber": "+525555555552",
+    "subscribed": ["Finance"],
+    "channels": ["SMS", "Email", "Push"]
+  },
+  {
+    "id": 3,
+    "name": "name C",
+    "email": "emailC@example.com",
+    "phoneNumber": "+525555555553",
+    "subscribed": ["Movies"],
+    "channels": ["Email", "Push"]
+  },
+  {
+    "id": 4,
+    "name": "name D",
+    "email": "emailD@example.com",
+    "phoneNumber": "+525555555554",
+    "subscribed": ["Sports", "Finance"],
+    "channels": ["SMS", "Push"]
+  },
+  {
+    "id": 5,
+    "name": "name E",
+    "email": "emailE@example.com",
+    "phoneNumber": "+525555555555",
+    "subscribed": ["Sports", "Movies"],
+    "channels": ["SMS", "Email"]
+  },
+  {
+    "id": 6,
+    "name": "name F",
+    "email": "emailF@example.com",
+    "phoneNumber": "+525555555556",
+    "subscribed": ["Finance", "Movies"],
+    "channels": ["Push"]
+  },
+  {
+    "id": 7,
+    "name": "name G",
+    "email": "emailG@example.com",
+    "phoneNumber": "+525555555557",
+    "subscribed": ["Sports", "Finance", "Movies"],
+    "channels": ["Email"]
+  },
+  {
+    "id": 8,
+    "name": "name H",
+    "email": "emailH@example.com",
+    "phoneNumber": "+525555555558",
+    "subscribed": [],
+    "channels": ["SMS"]
+  },
+  {
+    "id": 9,
+    "name": "name I",
+    "email": "emailI@example.com",
+    "phoneNumber": "+525555555559",
+    "subscribed": ["Sports", "Finance", "Movies"],
+    "channels": ["SMS", "Email", "Push"]
+  }
+]
