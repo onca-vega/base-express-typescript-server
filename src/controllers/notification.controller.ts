@@ -25,7 +25,6 @@ export default class NotificationController {
         message: "Notifications succesfully sent",
       });
     } catch (error: any) {
-      console.log(error);
       res.status(error.status || 500).json(error.data || null);
     }
   }

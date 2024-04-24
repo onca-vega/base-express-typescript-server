@@ -16,6 +16,7 @@ class HttpError extends Error {
     this.data = attributes.data;
 
     Error.captureStackTrace(this, HttpError);
+    console.error(this);
   }
 
   name: string;

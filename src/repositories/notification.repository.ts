@@ -40,7 +40,7 @@ export default class NotificationRepository {
     return emailNotification;
   }
 
-  sendPushNotification(attributes: NotificationAttributes): EmailNotification {
+  sendPushNotification(attributes: NotificationAttributes): PushNotification {
     const emailNotification = new PushNotification(attributes);
 
     const notifications = this.getNotifications();
@@ -51,7 +51,7 @@ export default class NotificationRepository {
     return emailNotification;
   }
 
-  sendSMSNotification(attributes: NotificationAttributes): EmailNotification {
+  sendSMSNotification(attributes: NotificationAttributes): SMSNotification {
     const emailNotification = new SMSNotification(attributes);
 
     const notifications = this.getNotifications();
