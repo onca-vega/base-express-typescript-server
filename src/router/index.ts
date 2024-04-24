@@ -1,16 +1,15 @@
 import express from "express";
 
-import { logs, submission } from "@/router/routes";
+import NotificationController from "@/controllers/notification.controller";
 
-function useRouter() {
+export default function useRouter() {
+  const notificationController = new NotificationController();
   const router = express.Router();
 
   router.use(express.json()); // Sets request data type
 
-  router.get(logs.path, logs.get);
-  router.post(submission.path, submission.post);
+  router.get(notificationController.path, notificationController.get);
+  router.post(notificationController.path, notificationController.post);
 
   return router;
 }
-
-export default useRouter;

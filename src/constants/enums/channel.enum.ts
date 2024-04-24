@@ -1,7 +1,7 @@
 enum Channel {
   SMS = "SMS",
   EMAIL = "Email",
-  Push = "Push",
+  PUSH = "Push",
 }
 
 export default Channel;

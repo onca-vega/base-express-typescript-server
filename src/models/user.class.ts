@@ -1,6 +1,6 @@
 import { Category, Channel } from "@/constants/enums";
 
-class User {
+export default class User {
   constructor(attributes: {
     name: string;
     email: string;
@@ -22,5 +22,3 @@ class User {
   subscribed: Array<Category>;
   channels: Array<Channel>;
 }
-
-export default User;
